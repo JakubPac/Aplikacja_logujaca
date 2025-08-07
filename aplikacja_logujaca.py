@@ -59,7 +59,7 @@ class AplikacjaLogujaca():
     def __init__(self, master):
         self.master = master
         self.baza = BazaUzytkownikow()
-        master.title('Logowanie')
+        self.master.title('Logowanie')
         
         self.frame_login = tk.Frame(master)
         self.frame_register = tk.Frame(master)
